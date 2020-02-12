@@ -1,0 +1,18 @@
+{
+	"giano": {
+		"privateKey": "8d3cb03478570c47caadbc6ab597249551bf3d81389845c0802f34d37c607666",
+		"publicKey": "03137a974320335dfff41eb9060d7e12cdd04c6cd5a686625fb8fc7acbf89e0f2c"
+	},
+	"campa": {
+		"privateKey": "247d89fed4be2179f331b7c8be73815e7f1177c8da8e8434c4b829e17d36e9f0",
+		"publicKey": "03427df2a2a71a5ded5536349dff5a79631479dc2baa77da71c444aa3004c1a231"
+	},
+	"luca": {
+		"privateKey": "64d581267d19c2970a9982a2c15c90370cac30c88af6d79756d99158745c3ff6",
+		"publicKey": "030cde0612762f0517ebadb5634f7586472921fbeba8a05089e2952c10850ce2ec"
+	},
+	"abdul": {
+		"privateKey": "1601cab5ab4feab11a0c273d513664a33763df3e469a41273882c328e679d616",
+		"publicKey": "0295af94f39f143fd791b319d0c61eebc793262eb66e5bd9fb014b508eaff237e0"
+	}
+}

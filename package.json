@@ -1,0 +1,24 @@
+{
+  "name": "@giano95/coin",
+  "version": "1.0.0",
+  "description": "A simple Cryptocurrency application that uses LotionJS as a framework to access all Tendermint features",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "lotion": "0.4.26",
+    "secp256k1": "3.5.0",
+    "sha": "2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "giano95",
+    "url": "https://github.com/giano95"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giano95/coin.git"
+  }
+}
