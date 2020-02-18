@@ -1,4 +1,3 @@
-let { addWallet, getAllWallets, getWallet } = require('./wallet')     // Wallet module: user written
 let { signTx } = require('./transaction')   // Transaction module: user written
 let { connect } = require('lotion')         // LotionClient module: necessary to connect to our Lotion application
 let GCI = '0b8701fde1ff9b42bcc4b003fd61ca5de7ca81b334db021243d8428e1a4f6988' // Global Chain Identifier: identifies our application from any computer in the world
@@ -44,7 +43,7 @@ let getBalance = async (publicKey) =>
 
 
 //sendCoin(genesisWallet, getWallet('giano').publicKey, 1)
-getState().then(state => {console.log(state)})
+//getState().then(state => {console.log(state)})
 //getBalance(getWallet('giano').publicKey).then(balance => {console.log('giano: ' + balance)})
 //getBalance(getWallet('campa').publicKey).then(balance => {console.log('campa: ' + balance)})
 //getBalance(getWallet('luca').publicKey).then(balance => {console.log('luca: ' + balance)})
