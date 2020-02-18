@@ -1,11 +1,11 @@
 {
   "name": "@giano95/coin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple Cryptocurrency application that uses LotionJS as a framework to access all Tendermint features",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "dependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "3.x",
     "lotion": "0.4.26",
     "secp256k1": "3.5.0",
     "sha": "2.0.1"

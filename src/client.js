@@ -44,7 +44,7 @@ let getBalance = async (publicKey) =>
 
 
 //sendCoin(genesisWallet, getWallet('giano').publicKey, 1)
-//getState().then(state => {console.log(state)})
+getState().then(state => {console.log(state)})
 //getBalance(getWallet('giano').publicKey).then(balance => {console.log('giano: ' + balance)})
 //getBalance(getWallet('campa').publicKey).then(balance => {console.log('campa: ' + balance)})
 //getBalance(getWallet('luca').publicKey).then(balance => {console.log('luca: ' + balance)})
