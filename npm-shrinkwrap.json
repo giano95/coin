@@ -1,6 +1,6 @@
 {
     "name": "@giano95/coin",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "lockfileVersion": 1,
     "requires": true,
     "dependencies": {
@@ -870,17 +870,24 @@
             }
         },
         "elliptic": {
-            "version": "6.5.2",
-            "resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.2.tgz",
-            "integrity": "sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==",
+            "version": "6.5.4",
+            "resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz",
+            "integrity": "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==",
             "requires": {
-                "bn.js": "^4.4.0",
-                "brorand": "^1.0.1",
+                "bn.js": "^4.11.9",
+                "brorand": "^1.1.0",
                 "hash.js": "^1.0.0",
-                "hmac-drbg": "^1.0.0",
-                "inherits": "^2.0.1",
-                "minimalistic-assert": "^1.0.0",
-                "minimalistic-crypto-utils": "^1.0.0"
+                "hmac-drbg": "^1.0.1",
+                "inherits": "^2.0.4",
+                "minimalistic-assert": "^1.0.1",
+                "minimalistic-crypto-utils": "^1.0.1"
+            },
+            "dependencies": {
+                "bn.js": {
+                    "version": "4.12.0",
+                    "resolved": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz",
+                    "integrity": "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA=="
+                }
             }
         },
         "encoding-down": {
@@ -1211,6 +1218,16 @@
                 "inherits": "~2.0.0",
                 "mkdirp": "0.5",
                 "rimraf": "2"
+            },
+            "dependencies": {
+                "graceful-fs": {
+                    "version": "3.0.12",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+                    "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+                    "requires": {
+                        "natives": "^1.1.3"
+                    }
+                }
             }
         },
         "gaze": {
@@ -1339,6 +1356,11 @@
                         "inherits": "1",
                         "minimatch": "~0.2.11"
                     }
+                },
+                "graceful-fs": {
+                    "version": "1.2.3",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz",
+                    "integrity": "sha1-FaSAaldUfLLS2/J/QuiajDRRs2Q="
                 },
                 "inherits": {
                     "version": "1.0.2",
@@ -3623,6 +3645,14 @@
                     "version": "0.2.0",
                     "resolved": "https://registry.npmjs.org/clone/-/clone-0.2.0.tgz",
                     "integrity": "sha1-xhJqkK1Pctv1rNskPMN3JP6T/B8="
+                },
+                "graceful-fs": {
+                    "version": "3.0.12",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+                    "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+                    "requires": {
+                        "natives": "^1.1.3"
+                    }
                 },
                 "readable-stream": {
                     "version": "1.0.34",
